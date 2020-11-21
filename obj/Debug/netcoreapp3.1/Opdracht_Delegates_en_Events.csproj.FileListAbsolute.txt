@@ -1,0 +1,13 @@
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.AssemblyInfoInputs.cache
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.AssemblyInfo.cs
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\bin\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.exe
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\bin\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.deps.json
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\bin\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.runtimeconfig.json
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\bin\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.runtimeconfig.dev.json
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\bin\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.dll
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\bin\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.pdb
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.dll
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.pdb
+C:\Users\kevin\source\repos\Opdracht_Delegates_en_Events\Opdracht_Delegates_en_Events\obj\Debug\netcoreapp3.1\Opdracht_Delegates_en_Events.genruntimeconfig.cache

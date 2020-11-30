@@ -9,24 +9,10 @@ namespace Opdracht_Delegates_en_Events.Models
     {
         #region Attibutes
         private Dictionary<string, List<Bestelling>> _bestellingen = new Dictionary<string, List<Bestelling>>();
-        private BestellingsSysteem _bestellingsSysteem;
-        public BestellingsSysteem BestellingsSysteem
-        {
-            get
-            {
-                return _bestellingsSysteem;
-            }
-            set
-            {
-                if (_bestellingsSysteem != null) _bestellingsSysteem.BestellingEvent -= Add_bestelling;
-                _bestellingsSysteem = value;
-                _bestellingsSysteem.BestellingEvent += Add_bestelling;
-            }
-        }
         #endregion
 
         #region Constructors
-        public Sales(BestellingsSysteem bestellingsSysteem) { _bestellingsSysteem = bestellingsSysteem; }
+        public Sales( ) {  }
         #endregion
 
         #region Methodes

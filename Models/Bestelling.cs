@@ -21,10 +21,26 @@ namespace Opdracht_Delegates_en_Events.Models
             Aantal = aantal;
             Adres = adres;
         }
+        public Bestelling(ProductType product, int aantal, string adres)
+        {
+            Product = product;
+            Aantal = aantal;
+            Adres = adres;
+        }
         #endregion
 
         #region Methodes
-        //todo
+        public override string ToString()
+        {
+            if (Prijs < 0) 
+            {
+                return "Bestelling met Product:" + Product.ToString() + " een Prijs van:" + Prijs + " een Aantal van:" + Aantal + " en het Adres:" + Adres;
+            }
+            else
+            {
+                return "Bestelling met Product:" + Product.ToString() + " een Aantal van:" + Aantal + " en het Adres:" + Adres;
+            }
+        }
         #endregion
     }
 }

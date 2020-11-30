@@ -8,26 +8,24 @@ namespace Opdracht_Delegates_en_Events.Models
     public class Winkel
     {
         #region Attibutes
-        public Sales Sales { get; set; }
-        public Groothandelaar Groothandelaar { get; set; }
-        public BestellingsSysteem BestellingsSysteem { get; set; }
+        public event EventHandler<WinkelEventArgs> BestellingEvent;
         #endregion
 
         #region Constructors
-        public Winkel() 
-        {
-            BestellingsSysteem = new BestellingsSysteem();
-            Sales = new Sales(BestellingsSysteem);
-            Groothandelaar = new Groothandelaar();
-        }
+        public Winkel(){}
         #endregion
 
         #region Methodes
         public void VerkoopProduct(Bestelling bestelling)
         {
-            BestellingsSysteem.GeefBestellingIn(new WinkelEventArgs { Bestelling = bestelling });
-            //Sales.Add_bestelling(bestelling);
-            //Groothandelaar.Voeg_bestelling_toe(bestelling);
+            OnVerkoopProduct(bestelling);
+        }
+        protected virtual void OnVerkoopProduct(Bestelling Lbestelling)
+        {
+            if(!(BestellingEvent is null))
+            {
+                BestellingEvent(this, new WinkelEventArgs { Bestelling = Lbestelling });
+            }
         }
         #endregion
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Opdracht_Delegates_en_Events.Models.events;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,6 +28,10 @@ namespace Opdracht_Delegates_en_Events.Models
         {
             Bestellingen.Add(bestelling);
             stockbeheer.Reduce_stock(bestelling.Product, bestelling.Aantal);
+        }
+        public void Add_bestelling(object sender, WinkelEventArgs args)
+        {
+            Voeg_bestelling_toe(args.Bestelling);
         }
         #endregion
     }
